@@ -1,28 +1,49 @@
-<h1>jQuery EndlessScroll Plugin</h1>
-<p>Demo: http://yanosh-igor.github.io/endless-scroll/</p>
-<p>This plugin is very light, simple and contains minimal configurations. So use it when you need scroll that easy to setup.</p>
+#jQuery EndlessScroll Plugin
+Demo: http://yanosh-igor.github.io/endless-scroll/
 
-<h2>How to use EndlessScroll Plugin?</h2>
+This plugin is very light, simple and contains minimal configurations. So use it when you need scroll that easy to setup.
 
-<h2>License</h2>
-<p>The MIT License (MIT)</p>
+##How to use EndlessScroll Plugin?
+1. **Include jQuery and EndlessScroll**
 
-<p>Copyright (c) 2014 Yanosh Igor</p>
+  To use EndlessScroll, you’ll need to make sure both the EndlessScroll and jQuery scripts are included. If you’ve already got jQuery (you can test by opening your JavaScript console and typing !!window.jQuery — if it says true, you have jQuery), you don’t need to add the first line.
 
-<p>Permission is hereby granted, free of charge, to any person obtaining a copy
+  ```
+  <script src="//code.jquery.com/jquery-latest.min.js"></script>
+  <script src="path_to/js/jquery.endlessScroll.js	"></script>
+  ```
+
+2. **Ready your HTML**
+  ```
+   <div class="endless-scroll"></div>
+   <a href="/posts" class="next"></a>
+  ```
+3.  **Activate Plugin**
+
+  The last thing we have to do is activate the plugin. To do this, add the following script:
+  ```
+  $('.endless-scroll').endlessScroll();
+  ```
+
+##License
+The MIT License (MIT)
+
+Copyright (c) 2014 Yanosh Igor
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:</p>
+furnished to do so, subject to the following conditions:
 
-<p>The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.</p>
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.</p>
+THE SOFTWARE.
