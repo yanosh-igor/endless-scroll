@@ -31,16 +31,26 @@ This plugin is very light, simple and contains minimal configurations. So use it
 ##API Documentation
 #####Options:
 
-Option        | Type	| Default Value | Description
-------------- | ------------- | ------------- | -------------
-scrollTrigger | number | 0.77 | Parameter that indicates how fast to trigger next page.
-loader        | string | `.loader` | The selector that indocates loader.
-loaderHtml    | string, jQuery object | `<div class="loader"></div>` | The HTML to be displayed during loading.
-nextLink      | string | `.next` | The selector to use for finding the link which contains the href pointing to the next set of content. 
+Option        | Default Value | Description
+------------- | ------------- | -------------
+scrollTrigger | 0.77 | Parameter that indicates how fast to trigger next page.
+loader        | `.loader` | The selector that indocates loader.
+loaderHtml    | `<div class="loader"></div>` | The HTML to be displayed during loading.
+nextLink      | `.next` | The selector to use for finding the link which contains the href pointing to the next set of content. 
 
 ##Examples
 
-Here will be examples soon.
+```
+$('.selector').endlessScroll({
+  scrollTrigger: 0.9,
+  nextLink: '.my-next-post-link'
+  // other options
+});
+```
+Also we can set confguration within html attributes:
+```
+<div class="selector" data-endlessScroll-options="{scrollTrigger:0.5}"></div>
+```
 
 ##Demo
 [Click to see demo page](http://yanosh-igor.github.io/endless-scroll/)
