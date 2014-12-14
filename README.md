@@ -38,6 +38,11 @@ loader        | string | `.loader` | The selector that indocates loader.
 loaderHtml    | string, jQuery object | `<div class="loader"></div>` | The HTML to be displayed during loading.
 nextLink      | string | `.next` | The selector to use for finding the link which contains the href pointing to the next set of content. 
 
+##Examples
+
+Here will be examples soon.
+
+
 ##License
 The MIT License (MIT)
 
