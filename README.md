@@ -51,6 +51,9 @@ Also we can set confguration within html attributes:
 ```
 <div class="selector" data-endlessScroll-options="{scrollTrigger:0.5}"></div>
 ```
+Reset EndlessScroll:
+
+` $('.selector').trigger('resetEndlessScroll');`
 
 ##Demo
 [Click to see demo page](http://yanosh-igor.github.io/endless-scroll/)
