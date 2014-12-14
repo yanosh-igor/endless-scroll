@@ -24,6 +24,12 @@ This plugin is very light, simple and contains minimal configurations. So use it
   ```
   $('.endless-scroll').endlessScroll();
   ```
+4. **That's it!**
+ 
+  Plugin will call next url any time the bottom of the element approaches the bottom of the browser window. See the [API documentation](https://github.com/yanosh-igor/endless-scroll/blob/master/README.md#api-documentation) for more information about what attributes are available for use, and take a look at [the demos](http://yanosh-igor.github.io/endless-scroll/) to see EndlessScroll in action.
+
+##API Documentation
+Here will be API documentation.
 
 ##License
 The MIT License (MIT)
