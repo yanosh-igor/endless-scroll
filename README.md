@@ -42,6 +42,9 @@ nextLink      | string | `.next` | The selector to use for finding the link whic
 
 Here will be examples soon.
 
+##Demo
+[Click to see demo page](http://yanosh-igor.github.io/endless-scroll/)
+
 
 ##License
 The MIT License (MIT)
