@@ -10,13 +10,13 @@ This plugin is very light, simple and contains minimal configurations. So use it
 
   ```
   <script src="//code.jquery.com/jquery-latest.min.js"></script>
-  <script src="path_to/js/jquery.endlessScroll.js	"></script>
+  <script src="path_to/js/jquery.endlessScroll.js"></script>
   ```
 
 2. **Ready your HTML**
   ```
    <div class="endless-scroll"></div>
-   <a href="/posts" class="next"></a>
+   <a href="/ajax_posts" class="next"></a>
   ```
 3.  **Activate Plugin**
 
